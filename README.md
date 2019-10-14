@@ -5,6 +5,8 @@
 
 # Scan your code
 1)add build.gradle.kts following code
+latest version
+https://plugins.gradle.org/plugin/org.sonarqube 
 ```
 plugins {
 	id("org.springframework.boot") version "2.1.8.RELEASE"
