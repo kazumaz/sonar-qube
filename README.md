@@ -23,7 +23,7 @@ see [latest version](https://plugins.gradle.org/plugin/org.sonarqube)
 ```
 systemProp.sonar.host.url=http://localhost:9000
 ```
-3.execute command `./gradlew sonarqube`
+3.execute command `./gradlew sonarqube` or `./gradlew clean sonarqube`
 
 4.access [your local sonar qube](http://localhost:9000/) 
  
