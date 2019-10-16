@@ -3,10 +3,10 @@
 
 * execute command `docker-compose up`
 
-3.access [your local sonar qube](http://localhost:9000/) 
+* access [your local sonar qube](http://localhost:9000/) 
 
 ## scan your code
-1.add build.gradle.kts following code
+* add build.gradle.kts following code
 
 ```
 plugins {
@@ -19,12 +19,12 @@ plugins {
 ```
 see [latest version](https://plugins.gradle.org/plugin/org.sonarqube)
 
-2.add gradle-wrapper.properties  folowing code
+* add gradle-wrapper.properties  folowing code
 ```
 systemProp.sonar.host.url=http://localhost:9000
 ```
-3.execute command `./gradlew clean sonarqube`
+* execute command `./gradlew clean sonarqube`
 
-4.access [your local sonar qube](http://localhost:9000/) and check the result
+* access [your local sonar qube](http://localhost:9000/) and check the result
  
 <img width="1389" alt="スクリーンショット 2019-10-14 13 18 41" src="https://user-images.githubusercontent.com/17084684/66729274-4bb93200-ee85-11e9-8b61-85b9db46aec9.png">
