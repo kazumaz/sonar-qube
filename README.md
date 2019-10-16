@@ -1,5 +1,5 @@
 ## make a sonar qube environment with docker
-1.download [docker-compose.yml](https://github.com/kazumaz/sonar-qube/blob/master/docker-compose.yml) and put it to your own directory
+* download [docker-compose.yml](https://github.com/kazumaz/sonar-qube/blob/master/docker-compose.yml) and put it to your own directory
 
 2.execute command `docker-compose up`
 
