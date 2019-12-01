@@ -19,7 +19,7 @@ plugins {
 ```
 see [latest version](https://plugins.gradle.org/plugin/org.sonarqube)
 
-* add gradle-wrapper.properties  folowing code
+* add gradle-wrapper.properties folowing code
 ```
 systemProp.sonar.host.url=http://localhost:9000
 ```
