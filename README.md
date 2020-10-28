@@ -7,7 +7,7 @@
 
 ## scan your code
 * add build.gradle.kts following code
-
+ 
 ```
 plugins {
 	id("org.springframework.boot") version "2.1.8.RELEASE"
